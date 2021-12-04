@@ -17,7 +17,7 @@ def ingresar (request):
                 return redirect("hola mundo")#falta hacer la plantilla
     else:
         form= AuthenticationForm()
-    return render(request, "loguin.html", {'formulario': form})
+    return render(request, "login.html", {'formulario': form})
 
 # la funcion registrarme aun no funciona
 def registrarme(request):

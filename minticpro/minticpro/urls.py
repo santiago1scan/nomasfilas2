@@ -21,7 +21,7 @@ from minticpro.views import  (ingresar, registrarme)
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('loguin/', views.ingresar, name='login'),
+    path('login/', views.ingresar, name='login'),
     path('registrarme/', views.registrarme, name='Registrarme'),
 
     #Urls de los modulos
