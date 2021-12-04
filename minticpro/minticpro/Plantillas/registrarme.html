@@ -1,0 +1,58 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MINTIC</title>
+    {% load static%}
+	<link rel="stylesheet" href='{% static "css/h1.css" %}' type="text/css" >
+    
+</head>
+<body>
+    <form id="form-login-usuarios"  method="POST">
+
+
+    <div id="particles-js">
+        
+    </div>
+
+	<div class="contenedor">
+        <div></div>
+        <form action="" >
+            
+            <div id="cuadradogrid">
+                <div >
+                    <h1>Registrarme</h1>
+                </div>
+                <div id="formulario">
+                    {{ formulario.as_p }}{% csrf_token %}
+
+                    <input type="submit" value="Registrarse">
+                </div>
+                <div >
+                    <img id="imagen" src="{% static 'images/login-phrase.png'%}" alt="">
+                </div>
+            </div>
+                
+            </div>
+        </form>
+    </div>
+
+<footer>
+    <p id="piepa"> POWER BY SCAN</p>
+    <div id="texture1">
+        <img class="logos_mi" src="{% static 'images/logo-mision-tic.png' %}" alt="">
+        <img class="logos_mi" src="{% static 'images/logo-utp.png' %}" alt="">
+
+    </div>
+        
+</footer>   
+    <!--Javascript-->
+    <script src="{% static 'js/particles.js' %}"></script>
+    <script src="{% static 'js/particulas.js' %}"></script>
+</body>
+</html>
+
