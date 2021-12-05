@@ -1,0 +1,50 @@
+{% load static%}
+<link rel="stylesheet" href='{% static "css/main.css" %}' type="text/css" >
+<header>
+	<head>
+		<meta charset="utf-8">
+		<title>Cabecera fija</title>
+	
+			<link rel="stylesheet" href="style.css">
+	</head>
+	
+
+		
+		<header id="main-header">
+			
+			<a id="logo-header" href="#">
+				<span class="site-name">Doctor Mario Lopez </span>
+				<span class="site-desc">NO MAS FILAS</span>
+			</a> <!-- / #logo-header -->
+	
+			<nav>
+				<ul id="lista">
+					
+					{% if user.is_authenticated %}
+						
+							<a href=""><strong>Pedir citas</strong></a>
+						</li>
+					{% else %}
+						<li>
+							<a href="">Inicio</a>
+						</li>
+						<li>
+							<a href="{% url 'Registrarme' %}">Registrarme</a>
+						</li>
+						<li>
+							<a href="{% url 'login' %}">Iniciar sesion</a>
+						</li>
+					{% endif %}
+				</ul>
+			</nav><!-- / nav -->
+	
+		</header><!-- / #main-header -->
+	
+		
+		<section id="main-content">
+		
+			
+		
+	
+	
+</header>

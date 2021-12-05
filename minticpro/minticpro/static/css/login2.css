@@ -1,0 +1,28 @@
+#content {
+    background: white;
+	width: 90%;
+	max-width: 800px;
+	margin: 20px auto;
+	box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    margin-top: 14%;
+}
+
+	#content header,
+	#content .content {
+		padding: 40px;
+	}
+
+#formulario{
+    margin-left: 2%;
+}
+
+#acceder{
+    background-color: rgba(114, 186, 224, 88);;
+    width: 200px;
+    height: 30px;
+    color:rgba(20, 20, 64, 25);
+    border: none;
+}
+body{
+    background-color: rgba(18, 20, 64, 25);
+}
