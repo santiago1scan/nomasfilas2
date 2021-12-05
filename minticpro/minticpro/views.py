@@ -32,3 +32,11 @@ def registrarme(request):
 
 	params = {'formulario':form}
 	return render(request, 'registrarme.html', params)
+
+def home(request):
+    pass
+    return render(request, 'home.html')
+
+def PedirCita(request):
+    pass
+    return render(request, 'cita.html')

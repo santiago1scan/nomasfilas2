@@ -22,11 +22,10 @@
 					
 					{% if user.is_authenticated %}
 						
-							<a href=""><strong>Pedir citas</strong></a>
-						</li>
+						
 					{% else %}
 						<li>
-							<a href="">Inicio</a>
+							<a href="{% url 'home' %}">Inicio</a>
 						</li>
 						<li>
 							<a href="{% url 'Registrarme' %}">Registrarme</a>
@@ -34,6 +33,7 @@
 						<li>
 							<a href="{% url 'login' %}">Iniciar sesion</a>
 						</li>
+						
 					{% endif %}
 				</ul>
 			</nav><!-- / nav -->

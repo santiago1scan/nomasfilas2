@@ -22,21 +22,25 @@
 	
 		<article>
 
-			<img src="" alt="" />
+          
+            <img class="logos_mi" src="{% static 'image/Logo.png' %}" alt="">
 
 			<div class="content">
+                
 
                 <form id="form-login-usuarios"  method="POST">
     
                         <div id="formulario">
                             <div>
-                                <h1>Iniciar seción</h1>
+                               <h2>Iniciar seción</h2> 
                             </div id="django">
                             {{ formulario.as_p }}{% csrf_token %}
             
                             <div>
-                                <input id="check" type="checkbox">
-                                <p id="recuerdame">Recordar nombre de Usuario</p> 
+                                <li id="cuenta">
+                                    <a style="color: black;" href="{% url 'Registrarme' %}">No tengo cuenta</a>
+                                </li>
+                               
                                 <input id="acceder" type="submit" value="Acceder">
                             </div>
                         </div>

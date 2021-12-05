@@ -18,11 +18,34 @@
 
 #acceder{
     background-color: rgba(114, 186, 224, 88);;
-    width: 200px;
+    width: 260px;
     height: 30px;
     color:rgba(20, 20, 64, 25);
     border: none;
 }
 body{
     background-color: rgba(18, 20, 64, 25);
+}
+
+@media screen and (max-width: 500px) {
+ 
+	#content {
+		width: 90%;
+		
+	}
+    #main-footer {
+       bottom: auto;
+        width: 0%};
+}
+
+#cuenta{
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.logos_mi{
+    position: absolute;
+    margin-left: 18%;
+    margin-top: -34px;
+    width: 23%;
 }

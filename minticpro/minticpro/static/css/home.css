@@ -1,0 +1,28 @@
+.descripcion{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-content: space-around;
+    margin-left: 20px;
+}
+
+.llamado{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-content: space-around;
+    margin-left: 20px;
+    color: red;
+}
+#acceder{
+    background-color: rgba(114, 186, 224, 88);;
+    width: 200px;
+    height: 30px;
+    color:rgba(20, 20, 64, 25);
+    border: none;
+    margin-left: 20px;
+}

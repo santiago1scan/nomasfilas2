@@ -17,12 +17,14 @@ from django.contrib import admin
 from django.urls import path, include
 from gestionUsuarios import views
 from minticpro import views
-from minticpro.views import  (ingresar, registrarme)
+from minticpro.views import  (ingresar, registrarme, home, PedirCita)
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('login/', views.ingresar, name='login'),
     path('registrarme/', views.registrarme, name='Registrarme'),
+    path('home/', views.home, name='home'),
+    path('reserva/', views.PedirCita, name='PedirCita'),
 
     #Urls de los modulos
     path('', include('gestionUsuarios.urls')),
