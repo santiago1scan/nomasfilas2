@@ -1,0 +1,21 @@
+#grid{
+    width: 200px;
+    
+    height: 200px;
+    background-color: khaki;
+    margin: 20px;
+    
+}
+div#grid2{
+    width: 200px;
+    align-items: flex-end;
+    height: 200px;
+    background-color: khaki;
+    margin: 20px;
+    margin-left: 200px;
+}
+
+#main-footer {
+
+    bottom: 0;
+}

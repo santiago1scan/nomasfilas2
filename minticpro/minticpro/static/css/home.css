@@ -6,6 +6,8 @@
     justify-content: flex-start;
     align-content: space-around;
     margin-left: 20px;
+    padding: 56px;
+  
 }
 
 .llamado{
@@ -15,7 +17,7 @@
     flex-wrap: nowrap;
     justify-content: flex-start;
     align-content: space-around;
-    margin-left: 20px;
+    margin-left: 56px;
     color: red;
 }
 #acceder{
@@ -24,5 +26,20 @@
     height: 30px;
     color:rgba(20, 20, 64, 25);
     border: none;
-    margin-left: 20px;
+    margin-left: 76px;
+}
+
+#foto{
+    margin: 0%;
+    width: 33%;
+}
+
+#grid{
+    display: grid;
+    grid-row: 1fr 1fr;
+}
+#titulo{
+    text-align: start;
+    margin: 8px 76px -46px;
+    padding-top: 19px;
 }
